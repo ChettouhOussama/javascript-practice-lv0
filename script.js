@@ -22,11 +22,11 @@ function compariason(){
 
     let numb2 = num1%2
 
-    if (numb2==0){
+    if (numb2 === 0){
         alert("the number" + num1 + " is even"  )
     }
     else {
-        alert("the number" + num1 + " is not even"  )
+        alert(" the number " + num1 + " is not even"  )
     }
 
 
