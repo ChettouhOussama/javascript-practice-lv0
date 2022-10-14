@@ -1,5 +1,4 @@
 
-
 function fullname(){
 
     let firstname
@@ -16,4 +15,19 @@ function fullname(){
 }
 
 // The is the execution of the function
- 
+
+function compariason(){
+
+    let num1  = Number(prompt("give me you're first number  "))
+
+    let numb2 = num1%2
+
+    if (numb2==0){
+        alert("the number" + num1 + " is even"  )
+    }
+    else {
+        alert("the number" + num1 + " is not even"  )
+    }
+
+
+}
