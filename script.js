@@ -31,3 +31,22 @@ function compariason(){
 
 
 }
+
+function year() {
+
+    let year = Number(prompt("write the month number !"))
+
+    if(year>=1 && year<=12){
+
+
+    }
+    else {
+        alert("wrong month number")
+    }
+
+
+
+
+
+
+}
