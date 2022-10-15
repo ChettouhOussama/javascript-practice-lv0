@@ -37,16 +37,18 @@ function year() {
     let year = Number(prompt("write the month number !"))
 
     if(year>=1 && year<=12){
+        if (year===2){
+            alert("the month number is 29 days")
+        }
+        else if( year=== 4 || year=== 6 || year === 9 || year===11){
+            alert("the month number is 30 days")
 
-
+        }
+        else{
+            alert("the month number is 31 days")
+        }
     }
     else {
         alert("wrong month number")
     }
-
-
-
-
-
-
 }
